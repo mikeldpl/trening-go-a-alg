@@ -1,8 +1,8 @@
 # trening-go-a-alg
 A star algorithm on go lang
 
-Here is exampl of usage :
-
+Here is an example of usage :
+```go
 err, road := a_alg.SearchStandardAStar2D(
 			". . . . # . . . . . . . # . . . . . .\n" +
 			". . O . # . . . . . . . # . . . # . .\n" +
@@ -25,8 +25,9 @@ err, road := a_alg.SearchStandardAStar2D(
 	} else {
 		log.Printf("\n%v", road)
 	}
-  
-  *It prints -> 
+  ```
+  *It prints ->
+   ```
 .	.	.	.	#	.	.	.	.	.	.	.	#	.	.	.	↙	.	.	
 .	→	O	.	#	.	.	.	.	.	.	.	#	.	.	↙	#	↖	.	
 ↗	#	#	.	#	.	.	.	.	.	.	.	#	.	↓	.	#	↑	.	
@@ -43,3 +44,4 @@ err, road := a_alg.SearchStandardAStar2D(
 .	#	.	.	.	#	.	#	.	.	.	#	.	.	.	#	↗	.	.	
 .	.	#	#	.	.	.	.	#	#	#	#	.	.	X	#	↑	.	.	
 .	#	.	.	.	.	.	.	.	.	.	#	.	.	.	↗	.	.	.	
+```
